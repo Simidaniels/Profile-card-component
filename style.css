@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(31, 164, 164);
+}
+.card-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    border-radius: 20px;
+    height: 380px;
+    transform: translate(-50%, -50%);
+    background: #fdfdfd;
+    box-shadow: 0 8px 25px rgba(0,0,0,.6);
+}
+.image-container{
+    height: 38%;
+    background: rgb(39, 191, 191);
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;    
+}
+.image-container img{
+    width: 6rem;
+    height: 6rem;
+    border: 0.2rem solid white;
+    border-radius: 50%;
+    margin-left: 7.7rem;
+    margin-top: 5rem;
+}
+.name{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 72px;
+    margin-bottom: 30px;
+}
+.name span{
+    color: rgb(125, 125, 125);
+}
+.name p{
+    color: rgb(125, 125, 125);
+}
+.content{
+    display: flex;
+    margin: 20px;
+    margin-left: 4vh;
+    width: 15vh;
+    font-weight: bold;
+}
+.content span{
+    color: rgb(135, 135, 135);
+    font-weight: 200;
+    font-family: monospace;
+}
+.followers{
+   width: 8vh;
+   text-align: center;
+   margin-left: 4vh;
+}
+.likes{
+    width: 8vh;
+    text-align: center;
+    margin-left: 6vh;
+}
+.photos{
+    width: 10vh;
+    text-align: center;
+    margin-left: 5vh;
+}
